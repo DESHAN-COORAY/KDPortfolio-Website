@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>mr.Desh&ensp;|&ensp;CONTACT</title>
+    <link rel="Stylesheet" type="text/css" href="contactC.css">
+    <script src="./JavaScript/messegeValidationExternal.js"></script>
+</head>
+<body>
+
+    <div>
+        <center>
+            <div class="navbar">
+                <a href="index.html">
+                    <input type="button" value="HOME" class="HNaviBtns">
+                </a>
+                <a href="about.html">
+                    <input type="button" value="ABOUT" class="HNaviBtns">
+                </a>
+                <a href="experience.html">
+                    <input type="button" value="EXPERIENCE" class="HNaviBtns">
+                </a>
+                <a href="projects.html">
+                    <input type="button" value="PROJECTS" class="HNaviBtns">
+                </a>
+                <a href="appointments.html">
+                    <input type="button" value="APPOINTMENTS" class="HNaviBtns">
+                </a>
+                <a href="contact.html">
+                    <input type="button" value="CONTACT" class="HNaviBtns">
+                </a>
+            </div>
+        </center>
+    </div>
+
+    <div>
+        <center>
+            <div class="box">
+                <div class="DivL">
+                    <h1 class="BoxLHeadText">Send me a message</h1>
+                    <div class="form">
+                        <form  method="POST" name="form1" onsubmit="return checkValidation()" action="PHP/sendMessage.php">
+                            <div class="input-container ic1">
+                                <input name="full_name" class="input" id="fullname" type="text" placeholder=" "/>
+                                <span id="nameerror"> </span>
+                                <div class="cut"></div>
+                                <label for="full_name" class="placeholder">Full name</label>
+                            </div>
+                            <div class="input-container ic1">
+                                <input name="email" class="input" id="email" type="text" placeholder=" "/>
+                                <span id="emailerror"> </span>
+                                <div class="cut"></div>
+                                <label for="email" class="placeholder">Email</label>
+                            </div>
+                            <div class="input-container ic1">
+                                <input name="subject" class="input" id="subject" type="text" placeholder=" "/>
+                                <span id="subjecterror"> </span>
+                                <div class="cut"></div>
+                                <label for="subject" class="placeholder">Subject</label>
+                            </div>
+                            <div class="input-container ic1">
+                                <input name="message" class="input" id="message" type="text" placeholder=" "/>
+                                <span id="messageerror"> </span>
+                                <div class="cut"></div>
+                                <label for="message" class="placeholder">Message</label>
+                            </div>
+                            <input type="submit" name="submit" id="submit" class="submit" value="S E N D"></input>
+                        </form>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="DivR">
+                    <h1 class="BoxRHeadText">Contact Me</h1>
+                    <p class="BoxBody">
+                        I am available for any suggestion or just to have a chat
+                        <br>
+                        <table border="0" id = "Tbl">
+                            <tr>
+                                <td>
+                                    <a href="https://goo.gl/maps/w9sU2VbPNr6tTcpp9" target="_blank"><input type="image" src="Images/Location.png" class="CIcon"/></a>
+                                </td>
+                                <td id="Td">
+                                    <b>Address :</b> <a class="CLink" href="https://goo.gl/maps/w9sU2VbPNr6tTcpp9" target="_blank">No. 94, Madinnagoda, Rajagiriya, Colombo,
+                                    <br>Sri Lanka.</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="https://mail.google.com"><input type="image" src="Images/Mail.png" class="CIcon"/></a>
+                                </td>
+                                <td id="Td">
+                                    <b>E-mail :</b> <a class="CLink" href="https://mail.google.com">kalpad379@gmail.com</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="https://linkedin.com/in/kalpana-deshan-b9425617b/"><input type="image" src="Images/Linkedin.png" class="CIcon"/></a>
+                                </td>
+                                <td id="Td">
+                                    <b>LinkedIn :</b> <a href="https://linkedin.com/in/kalpana-deshan-b9425617b/" class="CLink">Kalpana Deshan</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="tell:075829285 || tell:+945829285"><input type="image" src="Images/Phone.png" class="CIcon"/></a>
+                                </td>
+                                <td id="Td">
+                                    <b>Phone :</b> <a class="CLink" href="tell:075829285 || tell:+945829285">075 8297 285</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </p>
+                </div>
+            </div>
+        </center>
+    </div>
+
+        
+    <div>
+        <footer>
+            <center>
+                <br>
+                &copy; 2022 mr.Desh | developed by Deshan Cooray.</h4>
+            </center>
+        </footer>
+    </div>
+
+</body>
+</html>

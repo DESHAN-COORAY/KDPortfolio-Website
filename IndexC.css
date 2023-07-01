@@ -1,0 +1,101 @@
+/* Navigaion start */
+.navbar {
+    width: 100%;
+    overflow: hidden;
+    background-color: transparent;
+    font-family: Arial;
+    padding-top: 33px;;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .HNaviBtns{
+    background-color: transparent;
+    color:black;
+    letter-spacing: 1.5px;
+    height: 20px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Add a purple color to navbar links on hover */
+  .navbar a:hover, .HNaviBtns:hover {
+    color: rgba(76, 3, 124, 0.979);
+  }
+
+/* Navigaion End */
+
+.BMain{
+    display: flex;
+}
+
+.DCLogo{
+    width: 200px;
+    height: 200px;
+    padding-left: 40px;
+    padding-right: 40px;
+    vertical-align: middle;
+    background-color: transparent;
+}
+
+.Title{
+    text-align:left;
+    color: black;
+    font-size: 24pt;
+    padding-top: 70px;
+    vertical-align: middle;
+    font-family: Arial;
+}
+
+.Tagline{
+    text-align:left;
+    color: black;
+    font-size: 16pt;
+    vertical-align: middle;
+    font-family: Arial;
+    font-weight: lighter;
+    letter-spacing:  1px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.Btn1{
+    background-color: rgba(149, 8, 243, 0.979);
+    color: white;
+    font-size: 13pt;
+    padding: 5px;
+    height: 40px;
+    border-radius: 30px;
+    border-color: rgba(149, 8, 243, 0.979);
+    letter-spacing:  1px;;
+}
+
+.SIcon{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    padding: 5px;
+    z-index: 1;
+}
+
+.KDLogo{
+    width: 600px;
+    height: 605px;
+    vertical-align: middle;
+    background-color: transparent;
+    z-index: 1;
+}
+
+footer{
+    color: rgb(136, 135, 135);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 8px;
+}

@@ -1,0 +1,96 @@
+/* Navigaion start */
+.navbar {
+    width: 100%;
+    overflow: hidden;
+    background-color: transparent;
+    font-family: Arial;
+    padding-top: 33px;;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .HNaviBtns{
+    background-color: transparent;
+    color:black;
+    letter-spacing: 1.5px;
+    height: 20px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Add a purple color to navbar links on hover */
+  .navbar a:hover, .HNaviBtns:hover {
+    color: rgb(168, 49, 247);
+  }
+
+/* Navigaion End */
+
+.Tbl{
+    width: 100%;
+    height: 500px;
+    padding-top: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.box{
+    width: 1100px;
+    padding: 10px;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 10px 10px 15px 6px rgb(193, 131, 235);
+    display: flex;
+}
+
+.box:hover{
+    -webkit-box-shadow: 6px 8px 15px -6px #333;
+    box-shadow: 6px 8px 15px -6px #333;
+}
+
+.ELogo{
+    width: 170px;
+    height: 170px;
+    vertical-align: middle;
+    padding: 15px;
+    padding-left: 50px;
+    z-index: 1;
+}
+
+.BoxHeadText{
+    text-align: left;
+    color: rgb(168, 49, 247);
+    margin-bottom: 10px;
+    font-weight: 900;
+    font-family: Arial;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.DivR{
+    padding-left: 20px;
+    padding-top: 12px;
+}
+
+.BoxBody{
+    text-align: left;
+    font-family: Arial;
+    font-size: larger;
+    letter-spacing: 1px;
+    line-height: 35px;
+    padding: 10px;
+    margin-top: -8px;
+}
+
+footer{
+    color: rgb(136, 135, 135);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 8px;
+}
